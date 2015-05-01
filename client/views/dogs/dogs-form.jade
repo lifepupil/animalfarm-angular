@@ -1,0 +1,18 @@
+
+
+.row
+	.col-xs-3
+		.form-group
+			label(for='dogName') Name
+			input.form-control(name='dogName', type='text', ng-model='dog.name')
+		.form-group
+			label(for='dogAge') Age
+			input.form-control(name='dogAge', type='number', ng-model='dog.age')
+		.form-group
+			label(for='dogSex') Sex
+			select.form-control(name='dogSex', type='text', ng-model='dog.sex')
+				option Male
+				option Female
+		.form-group
+			label(for='dogPhoto') Photo
+			input.form-control(name='dogPhoto', type='url', ng-model='dog.photo')
